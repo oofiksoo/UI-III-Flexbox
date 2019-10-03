@@ -203,7 +203,7 @@ nav a:hover {
 
 .logo {
     display: flex;
-    margin-left: 45px;
+    margin-left: 25px;
 }
 
 .TopContent {
@@ -281,7 +281,7 @@ hr {
 }
 
 .sectionone img {
-    margin: 20px;
+    margin: 20px 0px;
 }
 
 .boxsection {
@@ -294,7 +294,7 @@ hr {
     width: 45%;
     height: 25%;
     border: 1px solid black;
-    background-color: lightgray;
+    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -313,6 +313,12 @@ hr {
     justify-content: center;
     align-items: center;
     margin: 20px 0px;
+    background-color: white;
+}
+
+.box a:hover {
+    animation-name: NavAnimation;
+    animation-duration: 2s;
 }
 
 .sectiontwo {
@@ -322,4 +328,15 @@ hr {
 .facts li {
     list-style: square;
     margin: 20px;
+}
+
+.contacttop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contactbottom {
+    display: flex;
+    justify-content: space-around;
 }

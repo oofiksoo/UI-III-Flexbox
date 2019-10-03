@@ -336,6 +336,18 @@ hr {
     justify-content: space-around;
 }
 
+.contacttop .box {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacttop .box img {
+    margin: 10px;
+}
+
 .contactbottom {
     display: flex;
     justify-content: space-around;
@@ -344,5 +356,13 @@ hr {
 .nasaimage {
     height: 200px;
     width: 900px;
-    background-image: url("https://apod.nasa.gov/apod/image/1909/McloudsCarina_Hubble_1397.jpg");
+    background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/habitableworlds2017_wide.jpg");
+}
+
+.nasaimage h1 {
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: palegreen;
 }
